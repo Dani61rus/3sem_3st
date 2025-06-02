@@ -9,7 +9,7 @@ export function MealItem({strMeal, strMealThumb, idMeal}){
         <div className="px-4 pb-4 p-4">
             <Link 
                 href={`/recipe/${idMeal}`}
-                className="text-red-400 hover:underline font-medium"
+                className="hover:underline font-medium"
             >
                 Watch recipe
             </Link>
