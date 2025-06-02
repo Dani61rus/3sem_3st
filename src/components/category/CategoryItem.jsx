@@ -10,8 +10,8 @@ export function CategoryItem({strCategory, strCategoryThumb, strCategoryDescript
             <div className="p-8">
                 <p className="text-black">{strCategoryDescription.slice(0,60)}...</p>
             </div>
-            <div className="px-4 pb-4 pt-4 bg-black">
-                <Link href={`/category/${strCategory}`} className="knopka1 text-red-400 hover:underline font-medium">
+            <div className="px-4 pb-4 pt-4">
+                <Link href={`/category/${strCategory}`} className="knopka1 hover:underline font-medium">
                     Watch category
                 </Link>
             </div>
